@@ -1,0 +1,7 @@
+package com.service.discovery.client.IGreetingController;
+
+public interface IGreetingController {
+	@RequestMapping("/greeting")
+	String greeting();
+
+}
